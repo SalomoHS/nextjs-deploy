@@ -426,7 +426,7 @@ export default function VideoUploader() {
               </div>
               <div>
                 <h1 className="text-2xl font-bold bg-gradient-to-r from-primary to-purple-500 bg-clip-text text-transparent">
-                  Whoosh
+                  CutZy
                 </h1>
                 <p className="text-sm text-muted-foreground">Lightning-fast short video generator</p>
               </div>
@@ -1009,7 +1009,7 @@ export default function VideoUploader() {
 
             <div className="mt-12 pt-8 border-t border-white/20">
               <p className="text-gray-400">
-                © 2025 Whoosh. All rights reserved. | Lightning-fast short video generator powered by AI
+                © 2025 CutZy. All rights reserved. | Lightning-fast short video generator powered by AI
               </p>
             </div>
           </div>
@@ -1020,7 +1020,7 @@ export default function VideoUploader() {
       {/* <AuthModal isOpen={showAuthModal} onClose={() => setShowAuthModal(false)} /> */}
 
       <Dialog open={showAuthModal} onOpenChange={setShowAuthModal}>
-        <DialogContent className="p-0 bg-transparent overflow-hidden border-0 shadow-none w-auto" showCloseButton={true}>
+        <DialogContent className="p-0 bg-transparent overflow-hidden border-0 shadow-none w-auto">
           <SignIn />
           <DialogClose asChild>
             <button
